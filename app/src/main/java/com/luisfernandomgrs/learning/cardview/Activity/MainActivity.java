@@ -29,19 +29,15 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerPostagem);
 
         // Define layout
-        /*
         // Criando um layout convencional...
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-        */
-        /*
+
         // Criando um layout horizontal
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
-        */
-        /*
+        //LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        //layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+
         // Criando um layout de tabela com duas colunas...
-        */
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 2);
+        //RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(layoutManager);
 
         // Define Adapter
